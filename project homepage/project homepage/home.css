@@ -1,0 +1,1118 @@
+/* section 1 */
+* {
+  box-sizing: border-box;
+}
+body{
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+main{
+  padding-top: 150px;
+}
+/* BANNER ----> DIV_START */
+.banner {
+  height: 880px;
+  position: relative;
+  overflow: hidden;
+  background-image: url(https://preview.colorlib.com/theme/martine/img/xbanner_bg.png.pagespeed.ic.wPlBrxd3rO.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/* BANNER ----> DIV_1 */
+.container {
+  width: fit-content;
+  /* height: 55rem; */
+  height: auto;
+  
+  margin-right: auto;
+  margin-left: auto;
+  display: grid;
+  align-items: center;
+  justify-content: center;  
+}
+/* BANNER ----> DIV_2 */
+.banner_text_iner {
+  /* margin-top:-10rem; */
+  margin-top: 12rem;
+  text-align: center;
+}
+/* BANNER ----> h1*/
+.text_inner1 {
+  color: white;
+  font-size: 8rem;
+  margin-bottom: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+/* BANNER ----> p */
+.text_inner2 {
+  font-size: 1.5rem;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  line-height: 28px;
+  /* font-size: 16px; */
+  margin-bottom: 0px;
+  font-weight: 400;
+}
+/* BANNER ----> a */
+.btn_1 {
+  display: inline-block;
+  width: 17rem;
+  padding: 23px 35px;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(36, 147, 224);
+  font-weight: 500;
+  text-decoration: none;
+
+}
+/* BANNER ----> a:hover */
+.btn_1:hover {
+  display: inline-block;
+  width: 17rem;
+  padding: 23px 35px;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(254 92 36);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+/* END of BANNER */
+
+
+/* BOOKING ----> DIV_START */
+.main_booking_div{
+  /* width: auto; */
+  height: 211px;
+  /* width: 55%; */
+  width: 1140px;
+  margin-top: -3.6rem;
+  /* margin-left:27rem; */
+  margin: auto;
+/* position: absolute; */
+  background-color: white;
+ display: flex;
+ flex-direction: column;
+  /* border: 2px solid black; */
+  bottom: 4.5rem;
+  position: relative;
+  box-sizing: border-box;
+  padding-bottom: 10rem;
+}
+/* BOOKING --->DIV_1 */
+.booking_nav{
+  box-sizing: border-box;
+  padding-top: 30px;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+/* BOOKING --->ul */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  column-gap: 4rem;
+  align-items: center;
+}
+/* BOOKING --->li */
+.nav-link{
+  box-sizing: border-box;
+  padding-left: 20px;
+}
+/* BOOKING --->a */
+a {
+  color: grey;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+/* BOOKING --->form */
+form{
+  /* width: 1140px; */
+  display: flex;
+  /* border: 2px solid black; */
+  margin: auto;
+  justify-content: center;
+  column-gap: 30px;
+ position: relative;
+ bottom: 10px;
+}
+/* BOOKING --->input,select*/
+form>input,select{
+  height: 48px ;
+  width: 212px;
+  border: 1px solid rgb(36,147,224);
+  font-size: large;
+}
+/* BOOKING --->input[type=search] */
+.search{
+  width: 110px;
+  border: none;
+  background-color:#fe5c24;
+  border: 0%;
+}
+.search:hover{
+  
+  background-color:#007bff;
+}
+
+/* END of BOOKING */
+
+
+/* TITLE ---->DIV_START ------>Top places to visit */
+/* .container */
+
+/* TITLE ---->DIV_1 */
+
+.sentpara{
+  color: white; 
+  margin-top: 30px
+}
+
+
+.saintmartineIceland{
+  font-size: 32px;
+}
+.sec_title {
+  margin-top: -2rem;
+  /* border: 2px solid green; */
+  width: 50rem;
+  margin-left: 10rem;
+  text-align: center;
+}
+/* TITLE ---->h1*/
+.h1text {
+  text-align: center;
+  font-size: 46px;
+  color: rgb(12 62 114);
+}
+/* TITLE ---->DIV_2*/
+.row {
+  width: 90%;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-areas:
+    "pic1 pic2"
+    "pic3 pic4";
+  column-gap: 20px;
+  row-gap: 20px;
+  margin-top: 7rem;
+  /* border: 2px solid black; */
+  /* margin: auto; */
+}
+/* TITLE ---->pics*/
+.pic1 {
+  grid-area: pic1;
+  width:"60%" ;
+  height:fit-content ;
+  background-image: url("https://preview.colorlib.com/theme/martine/img/xsingle_place_1.png.pagespeed.ic.8U2lqgGAYF.webp");
+  height: 394px;
+  width: 555px;
+}
+.pic2 {
+  grid-area: pic2;
+  width:"60%" ;
+  height:fit-content ;
+  background-image: url("	https://preview.colorlib.com/theme/martine/img/xsingle_place_2.png.pagespeed.ic.vY6GaxX2Hg.webp");
+  height: 394px;
+  width: 555px;
+}
+.pic3 {
+  grid-area: pic3;
+  width:"60%" ;
+  height:fit-content ;
+  background-image: url("	https://preview.colorlib.com/theme/martine/img/xsingle_place_3.png.pagespeed.ic.4H3YDMLG6d.webp");
+  height: 394px;
+  width: 555px;
+}
+.pic4 {
+  grid-area: pic4;
+  width:"60%" ;
+  height:fit-content ;
+  background-image: url("https://preview.colorlib.com/theme/martine/img/xsingle_place_4.png.pagespeed.ic.5S3ppAKTSH.webp");
+  height: 394px;
+  width: 555px;
+}
+.onHover{
+
+  height: 394px;
+  width: 555px;
+  color: transparent;
+  text-decoration: none;
+  content-visibility: hidden;
+}
+.inHover > a{
+  width: fit-content;
+  height: fit-content;
+  background-color: rgb(254,92,36);
+  padding: 10px 20px;
+  color: white;
+ 
+}
+
+.inHover{
+  position: relative;
+  top: 200px;
+}
+.onHover:hover {
+  background-color:rgba(12, 61, 114, 0.618);
+  color: white;
+  display: block;
+  text-decoration: none;
+  content-visibility: visible;
+  padding-left: 40px;
+}
+
+ 
+.checked{
+  color: rgb(254,92,36);
+}
+/* END of TITLE  ----->Top places to visit end */
+
+
+
+
+
+.btn_2 {
+  display: inline-block;
+  
+ margin: auto;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(254 92 36);
+  font-weight: 500;
+  text-decoration: none;
+  width: 10rem;
+  height: 4rem;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.btn_2:hover {
+  display: inline-block;
+  margin: auto;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(36, 147, 224);
+  font-weight: 500;
+  text-decoration: none;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.top_hotel{
+  margin-top: 110px;
+   text-align: center;
+}
+.hotel {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+  margin-top: 77px;
+}
+.hotelHeading {
+  margin-top: 30px;
+  text-decoration: none;
+  font-size: 24px;
+  color: rgb(12, 80, 137);
+}
+.hotelAnchor {
+  margin-top: 5px;
+  text-decoration: none;
+  font-size: 24px;
+  color: rgb(12, 80, 137);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 751px) and (max-width: 1174px) {
+
+
+  /* BANNER ----> DIV_START */
+  .banner {
+    height: 880px;
+    position: relative;
+    overflow: hidden;
+    background-image: url(https://preview.colorlib.com/theme/martine/img/xbanner_bg.png.pagespeed.ic.wPlBrxd3rO.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  /* BANNER ----> DIV_1 */
+  .container {
+    width: fit-content;
+    /* height: 55rem; */
+    height: auto;
+    
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    align-items: center;
+    justify-content: center;  
+  }
+  /* BANNER ----> DIV_2 */
+  .banner_text_iner {
+    /* margin-top:-10rem; */
+    margin-top: 12rem;
+    text-align: center;
+  }
+  /* BANNER ----> h1*/
+  .text_inner1 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 0px;
+    font-family: "Open Sans", sans-serif;
+  }
+  /* BANNER ----> p */
+  .text_inner2 {
+    font-size: 1.5rem;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    line-height: 28px;
+    /* font-size: 16px; */
+    margin-bottom: 0px;
+    font-weight: 400;
+  }
+  /* BANNER ----> a */
+  .btn_1 {
+    display: inline-block;
+    width: 17rem;
+    padding: 23px 35px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(36, 147, 224);
+    font-weight: 500;
+    text-decoration: none;
+  
+  }
+  /* BANNER ----> a:hover */
+  .btn_1:hover {
+    display: inline-block;
+    width: 17rem;
+    padding: 23px 35px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(254 92 36);
+    font-weight: 500;
+    text-decoration: none;
+  }
+  
+  
+    .hotelHeading {
+      margin-top: 30px;
+      text-decoration: none;
+      font-size: 24px;
+      color: rgb(12, 80, 137);
+    }
+  
+    .hotelcard {
+      width: 330px;
+     
+      box-sizing: border-box;
+      border-collapse: collapse;
+      margin-top: -10px;
+    }
+    .hotelcard > img {
+      width: 330px;
+      margin-right: 30px;
+    }
+    hr {
+      border: solid rgba(0, 0, 0, 0.2);
+      border-width: 0.1px;
+      width: 330px;
+    }
+  
+    .hotel {
+      display: flex;
+      justify-content: flex-start;
+      
+      box-sizing: border-box;
+      padding-left: 23px;
+      flex-wrap: wrap;
+      margin-top: 77px;
+      width: 755px;
+      margin: auto;
+      margin-top: 78px;
+      
+    }
+  
+    .hotelcontent {
+      line-height: 34px;
+    }
+  
+  
+/* BOOKING ----> DIV_START */
+.main_booking_div{
+  /* width: auto; */
+  height: 343px;
+  /* width: 55%; */
+  width: 690px;
+  margin-top: -3.6rem;
+  /* margin-left:27rem; */
+  margin: auto;
+/* position: absolute; */
+  background-color: white;
+ display: flex;
+ flex-direction: column;
+  /* border: 2px solid black; */
+  bottom: 4.5rem;
+  position: relative;
+  box-sizing: border-box;
+  padding-bottom: 10rem;
+}
+/* BOOKING --->DIV_1 */
+.booking_nav{
+  box-sizing: border-box;
+  padding-top: 30px;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+/* BOOKING --->ul */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  column-gap: 4rem;
+  align-items: center;
+}
+/* BOOKING --->li */
+.nav-link{
+  box-sizing: border-box;
+  padding-left: 20px;
+}
+/* BOOKING --->a */
+a {
+  color: grey;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+/* BOOKING --->form */
+form{
+  /* width: 1140px; */
+  display: grid;
+  /* border: 2px solid black; */
+  grid-template-columns: 295px 295px;
+  margin: auto;
+  justify-content: center;
+  column-gap:25px ;
+  row-gap: 15px;
+  
+ 
+}
+/* BOOKING --->input,select*/
+form>input,select{
+  height: 48px ;
+  width: 295px;
+  border: 1px solid rgb(36,147,224);
+  font-size: large;
+}
+/* BOOKING --->input[type=search] */
+.search{
+  width: 110px;
+  border: none;
+  background-color:#fe5c24;
+  border: 0%;
+}
+.search:hover{
+  
+  background-color:#007bff;
+}
+
+/* END of BOOKING */
+
+  
+  
+/* TITLE ---->DIV_START ------>Top places to visit */
+/* .container */
+
+/* TITLE ---->DIV_1 */
+.sentpara{
+  color: white; 
+  margin-top: 30px
+}
+
+
+.saintmartineIceland{
+  font-size: 20px;
+}
+
+
+.sec_title {
+  margin-top: -2rem;
+  /* border: 2px solid green; */
+  width: 50rem;
+  margin-left: 10rem;
+  text-align: center;
+}
+/* TITLE ---->h1*/
+.h1text {
+  text-align: center;
+  font-size: 46px;
+  color: rgb(12 62 114);
+}
+/* TITLE ---->DIV_2*/
+.row {
+  width: 90%;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-areas:
+    "pic1 pic2"
+    "pic3 pic4";
+  column-gap: 20px;
+  row-gap: 20px;
+  margin-top: 7rem;
+  /* border: 2px solid black; */
+  /* margin: auto; */
+}
+/* TITLE ---->pics*/
+.pic1 {
+  grid-area: pic1;
+  width:332px;
+  height: 241px ;
+  background-image: url("https://preview.colorlib.com/theme/martine/img/xsingle_place_1.png.pagespeed.ic.8U2lqgGAYF.webp");
+
+}
+.pic2 {
+  grid-area: pic2;
+  width:332px;
+  height: 241px ;
+  background-image: url("	https://preview.colorlib.com/theme/martine/img/xsingle_place_2.png.pagespeed.ic.vY6GaxX2Hg.webp");
+ 
+}
+.pic3 {
+  grid-area: pic3;
+  width:332px;
+  height: 241px ;
+  background-image: url("	https://preview.colorlib.com/theme/martine/img/xsingle_place_3.png.pagespeed.ic.4H3YDMLG6d.webp");
+ 
+}
+.pic4 {
+  grid-area: pic4;
+  width:332px;
+  height: 241px ;
+  background-image: url("https://preview.colorlib.com/theme/martine/img/xsingle_place_4.png.pagespeed.ic.5S3ppAKTSH.webp");
+ 
+}
+.onHover{
+
+  width:332px;
+  height: 241px ;
+  color: transparent;
+  text-decoration: none;
+  content-visibility: hidden;
+}
+.inHover > a{
+  width: fit-content;
+  height: fit-content;
+  background-color: rgb(254,92,36);
+  padding: 10px 20px;
+  color: white;
+ 
+}
+
+.inHover{
+  position: relative;
+  top: 80px;
+  right: 30px;
+}
+.onHover:hover {
+  background-color:rgba(12, 61, 114, 0.618);
+  color: white;
+  display: block;
+  text-decoration: none;
+  content-visibility: visible;
+  padding-left: 40px;
+}
+
+ 
+.checked{
+  color: rgb(254,92,36);
+}
+/* END of TITLE  ----->Top places to visit end */
+
+
+
+  
+  
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+@media only screen and (max-width: 751px) {
+  /* body{
+    margin: 0;
+    padding: 0;
+  }
+  *{
+    box-sizing: border-box;
+  } */
+
+  
+/* BANNER ----> DIV_START */
+.banner {
+  height: 647px;
+  position: relative;
+  overflow: hidden;
+  background-image: url(https://preview.colorlib.com/theme/martine/img/xbanner_bg.png.pagespeed.ic.wPlBrxd3rO.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/* BANNER ----> DIV_1 */
+.container {
+  width: fit-content;
+  /* height: 55rem; */
+  height: auto;
+  
+  margin-right: auto;
+  margin-left: auto;
+  display: grid;
+  align-items: center;
+  justify-content: center;  
+}
+/* BANNER ----> DIV_2 */
+.banner_text_iner {
+  /* margin-top:-10rem; */
+  margin-top: 12rem;
+  text-align: center;
+}
+/* BANNER ----> h1*/
+.text_inner1 {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+/* BANNER ----> p */
+.text_inner2 {
+  font-size: 1.5rem;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  line-height: 28px;
+  /* font-size: 16px; */
+  margin-bottom: 0px;
+  font-weight: 400;
+}
+/* BANNER ----> a */
+.btn_1 {
+  display: inline-block;
+  width: 17rem;
+  padding: 23px 35px;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(36, 147, 224);
+  font-weight: 500;
+  text-decoration: none;
+
+}
+/* BANNER ----> a:hover */
+.btn_1:hover {
+  display: inline-block;
+  width: 17rem;
+  padding: 23px 35px;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(254 92 36);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+
+
+
+
+  .hotelHeading {
+    margin-top: 30px;
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(12, 80, 137);
+  }
+
+  .hotelcard {
+    width: 330px;
+   
+    box-sizing: border-box;
+    border-collapse: collapse;
+    margin-top: -10px;
+  }
+  .hotelcard > img {
+    width: 433px;
+    margin-right: 30px;
+  }
+  hr {
+    border: solid rgba(0, 0, 0, 0.2);
+    border-width: 0.1px;
+    width: 433px;
+  }
+
+  .hotel {
+    display: flex;
+    justify-content: flex-start;
+    
+    box-sizing: border-box;
+    padding-left: 15px;
+    flex-wrap: wrap;
+    margin-top: 77px;
+    width: 463px;
+    margin: auto;
+    margin-top: 78px;
+    
+  }
+
+  .hotelcontent {
+    line-height: 34px;
+  }
+  .banner {
+    background-size: cover;
+    background-position: center center;
+  }
+  ul {
+  
+    align-items: center;
+  }
+ .btn_1{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .sec_title {
+   
+    width:auto;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  h1 {
+    text-align: center;
+  }
+  p {
+    text-align: left;
+  }
+  .row {
+    width: 90%;
+    /* margin: auto; */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4,auto);
+    grid-template-areas:
+      "pic1"
+      "pic2"
+      "pic3"
+      "pic4";
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+  .form_row {
+    /* display: flex; */
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto ;
+    grid-template-areas:
+      "r1"
+      "r2"
+      "r3"
+      "r4"
+      "r5";
+    column-gap: 15px;
+    position: absolute;
+  }
+  #row1{
+    /* display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0; */
+    margin-left: -6rem;
+  }
+  
+  
+/* BOOKING ----> DIV_START */
+.main_booking_div{
+  /* width: auto; */
+  height: 473px;
+  /* width: 55%; */
+  width: 433px;
+  margin-top: -3.6rem;
+  /* margin-left:27rem; */
+  margin: auto;
+/* position: absolute; */
+  background-color: white;
+ display: flex;
+ flex-direction: column;
+  /* border: 2px solid black; */
+  bottom: 4.5rem;
+  position: relative;
+  box-sizing: border-box;
+  padding-bottom: 10rem;
+}
+/* BOOKING --->DIV_1 */
+.booking_nav{
+  box-sizing: border-box;
+  padding-top: 30px;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+/* BOOKING --->ul */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  column-gap: 4rem;
+  align-items: center;
+}
+/* BOOKING --->li */
+.nav-link{
+  box-sizing: border-box;
+  padding-left: 20px;
+}
+/* BOOKING --->a */
+a {
+  color: grey;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+/* BOOKING --->form */
+form{
+  /* width: 1140px; */
+  display: grid;
+  /* border: 2px solid black; */
+  grid-template-columns: 361px;
+  margin: auto;
+  justify-content: center;
+  column-gap:25px ;
+  row-gap: 15px;
+  
+ 
+}
+/* BOOKING --->input,select*/
+form>input,select{
+  height: 48px ;
+  width: 361px;
+  border: 1px solid rgb(36,147,224);
+  font-size: large;
+}
+/* BOOKING --->input[type=search] */
+.search{
+  width: 110px;
+  border: none;
+  background-color:#fe5c24;
+  border: 0%;
+}
+.search:hover{
+  
+  background-color:#007bff;
+}
+
+/* END of BOOKING */
+ 
+  
+/* TITLE ---->DIV_START ------>Top places to visit */
+/* .container */
+
+/* TITLE ---->DIV_1 */
+.sentpara{
+  color: white; 
+  margin-top: 30px;
+  text-align: left;
+}
+
+
+.saintmartineIceland{
+  font-size: 20px;
+}
+
+
+.sec_title {
+  margin-top: -2rem;
+  /* border: 2px solid green; */
+  width: 50rem;
+  margin-left: 10rem;
+  text-align: center;
+}
+/* TITLE ---->h1*/
+.h1text {
+  text-align: center;
+  font-size: 46px;
+  color: rgb(12 62 114);
+}
+/* TITLE ---->DIV_2*/
+.row {
+  width: 90%;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-areas:
+    "pic1"
+    "pic2"
+    "pic3"
+    "pic4";
+  column-gap: 20px;
+  row-gap: 20px;
+  margin-top: 7rem;
+  margin: auto;
+  /* border: 2px solid black; */
+  /* margin: auto; */
+}
+/* TITLE ---->pics*/
+.pic1 {
+  grid-area: pic1;
+  width:437px;
+  height: 311px ;
+  background-image: url("https://preview.colorlib.com/theme/martine/img/xsingle_place_1.png.pagespeed.ic.8U2lqgGAYF.webp");
+
+}
+.pic2 {
+  grid-area: pic2;
+  width:437px;
+  height: 311px ;
+  background-image: url("	https://preview.colorlib.com/theme/martine/img/xsingle_place_2.png.pagespeed.ic.vY6GaxX2Hg.webp");
+ 
+}
+.pic3 {
+  grid-area: pic3;
+  width:437px;
+  height: 311px ;
+  background-image: url("	https://preview.colorlib.com/theme/martine/img/xsingle_place_3.png.pagespeed.ic.4H3YDMLG6d.webp");
+ 
+}
+.pic4 {
+  grid-area: pic4;
+  width:437px;
+  height: 311px ;
+  background-image: url("https://preview.colorlib.com/theme/martine/img/xsingle_place_4.png.pagespeed.ic.5S3ppAKTSH.webp");
+ 
+}
+.onHover{
+
+  width:437px;
+  height: 311px ;
+  color: transparent;
+  text-decoration: none;
+  content-visibility: hidden;
+}
+.inHover > a{
+  width: fit-content;
+  height: fit-content;
+  background-color: rgb(254,92,36);
+  padding: 10px ;
+  color: white;
+ 
+}
+
+.inHover{
+ position: relative;
+ top: 145px;
+ right: 20px;
+}
+.onHover:hover {
+  background-color:rgba(12, 61, 114, 0.618);
+  color: white;
+  display: block;
+  text-decoration: none;
+  content-visibility: visible;
+  padding-left: 40px;
+}
+
+ 
+.checked{
+  color: rgb(254,92,36);
+}
+/* END of TITLE  ----->Top places to visit end */
+
+
+
+ 
+  
+}
+
